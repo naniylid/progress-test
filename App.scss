@@ -31,10 +31,12 @@ body {
 
   &__circle {
     padding: 16px 0 15px 22px;
+    display: flex;
+    justify-content: center;
 
-    svg {
-      width: 60px;
-      height: 60px;
+    &--item {
+      position: absolute;
+      margin-top: -1.2px;
     }
 
     .progress-text {
